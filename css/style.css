@@ -922,7 +922,7 @@ padding: 0;
     left: 0;
     font-size: 15px;
     font-weight: 100;
-    color: rgba(0, 0, 0, 0.64);
+    color: rgb(0, 0, 0);
 }
 
 .blog-item-news {
