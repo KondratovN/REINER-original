@@ -1233,6 +1233,10 @@ padding: 0;
     .content-title {
         font-size: 30px;
     }
+
+    .content-subtitle {
+        font-weight: 400;
+    }
     
     .content-date {
         margin: 20px 0 20px 0;
