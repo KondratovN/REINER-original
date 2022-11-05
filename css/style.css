@@ -1094,7 +1094,7 @@ padding: 0;
 /*--------ABOUT US----------------------------------------------------------------*/
 
     .main-container-aboutus {
-        margin: 0 15px 50px 15px;
+        margin: 0 15px 30px 15px;
     }
 
     .title-one {
@@ -1171,6 +1171,21 @@ padding: 0;
 
         .connect {
             margin: 40px 0px 0 0px;
+        }
+    }
+
+    @media (max-width: 900px) {
+        .aboutus-text {
+            font-size: 20px;
+            font-weight: normal;
+        }
+
+        .aboutus-text p {
+            margin: 0 0 20px 0; 
+        }
+
+        .title-team {
+            font-size: 35px;
         }
     }
 
