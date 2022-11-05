@@ -1093,73 +1093,86 @@ padding: 0;
 
 /*--------ABOUT US----------------------------------------------------------------*/
 
-.wrapper-aboutus {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-.main-aboutus {
-    flex: 1;
-    margin: 0 15px;
-}
-
-.main-aboutus-container {
-    display: flex;
-    margin: 40px 15px 0 15px;
-}
-
-.our-project {
-    margin: 0 100px 0 0;
-}
-
-.our-project-title {
-    font-size: 25px;
-    font-weight: 700;
-    margin: 0 0 20px 0;
-}
-
-.about-us-title {
-    font-size: 25px;
-    font-weight: 700;
-    margin: 0 0 20px 0;
-}
-
-.our-project-ul {
-    list-style-type: none;
-}
-
-.our-project-ul-connect {
-    list-style-type: none;
-    margin: 0 0 50px 0;
-}
-
-.our-project-ul li {
-    margin: 0 0 15px 0;
-}
-
-.our-project-ul-connect li {
-    margin: 0 0 15px 0;
-}
-
-.our-project-ul-connect a {
-    color: #000000;
-}
-
-.our-project-ul a {
-    color: #000000;
-}
-
-.our-project-ul {
-    margin: 0 0 50px 0;
-}
-@media (max-width: 500px) {
-    .main-aboutus-container {
-        display: flex;
-        flex-direction: column;
-        margin: 40px 15px 0 15px;
+    .main-container-aboutus {
+        margin: 0 15px 50px 15px;
     }
-}
+
+    .title-one {
+        font-size: 50px;
+        font-weight: bold;
+        margin: 70px 0 30px 0;
+    }
+
+    .title-one a {
+        color: #be2424;
+    }
+
+    .aboutus-img {
+        text-align: center;
+        max-width: 850px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .aboutus-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .aboutus-text {
+        font-size: 25px;
+        font-weight: bold;
+        width: 90%;
+        margin: 50px 0 0 0;
+        line-height: 30px;
+    }
+
+    .aboutus-text p {
+        margin: 0 0 40px 0; 
+    }
+
+    .connect {
+        display: flex;
+        justify-content: space-between;
+        margin: 100px 0px 0 0px;
+        flex-wrap: wrap;
+    }
+
+    .connect a {
+        text-decoration: none;
+    }
+
+    .connect-title {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 0 0 20px 0;
+    }
+
+    .connect-title:last-child {
+        margin: 0 0 20px 10px;
+    }
+
+    .connect-li {
+        font-size: 22px;
+        list-style-type: none;
+        margin: 0 0 40px 0;
+    }
+
+    .connect-li li {
+        margin: 0 0 10px 0;
+        color: #be2424;
+    }
+
+    @media (max-width: 1279px) {
+        .aboutus-text {
+            width: 100%;
+        }
+
+        .connect {
+            margin: 100px 0px 0 0px;
+        }
+    }
 
 /*--------CONTENT----------------------------------------------------------------*/
 
